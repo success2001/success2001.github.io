@@ -1,0 +1,49 @@
+html,body {
+	width:100%;
+	height:100%
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+	background-color:#212525;
+}
+.clear{
+	position:absolute;
+	top: 65%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+.btn{
+	background-color: grey;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+.btn:hover{
+	background-color: red;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+/*.btn-primary {
+  background-color: #F05F22;
+  border-color: #F05F44;
+   }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+.btn-xl {
+  padding: 1rem 2rem; 
+}*/
+
+.centered{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
