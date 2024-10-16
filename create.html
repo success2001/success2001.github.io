@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Classroom Project</title>
+    <link rel="stylesheet" href="create.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>ClassEquip</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                     <a href="profile.html"><i class="fas fa-user usericon"></i></a>
+                   <!--  <li><a href="#">Project Creation</a></li>
+                    <li><a href="#">Project Details</a></li> -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Form Section -->
+    <section class="project-creation">
+        <div class="form-container">
+            <h2>Create a Classroom Project</h2>
+            <form id="project-form">
+                <!-- Project Title -->
+                <label for="title">Project Title</label>
+                <input type="text" id="title" name="title" placeholder="Enter project title" required>
+
+                <!-- Project Description -->
+                <label for="description">Project Description</label>
+                <textarea id="description" name="description" rows="5" placeholder="Enter project description" required></textarea>
+
+                <!-- Category -->
+                <label for="title">Category</label>
+                <input type="text" id="title" name="title" placeholder="Category" required>
+
+
+                <!-- Project Images -->
+                <label for="images">Upload Project Images</label>
+                <input type="file" id="images" name="images" accept="image/*" multiple required>
+                <div class="image-preview" id="image-preview"></div>
+
+                <!-- Required Materials -->
+                <label for="materials">Required Materials</label>
+                <input type="text" id="materials" name="materials" placeholder="List required materials" required>
+
+                <!-- Donation Goal -->
+                <label for="donation-goal">Donation Goal</label>
+                <input type="number" id="donation-goal" name="donation-goal" placeholder="Enter donation goal" required>
+
+                <!-- Buttons -->
+                <div class="buttons">
+                    <button type="button" class="save-btn">Save as Draft</button>
+                    <button type="submit" class="submit-btn">Submit for Approval</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <p>&copy; 2023 ClassEquip. All rights reserved.</p>
+    </footer>
+
+    <script src="create.js"></script>
+</body>
+</html>

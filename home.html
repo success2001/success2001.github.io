@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClassEquip Projects</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="main-header">
+       <!--  <div class="header-top">
+            <p>Use code DONATE for a discount on your first donation.</p>
+        </div> -->
+        <div class="header-content">
+            <div class="logo">ClassEquip</div>
+            <nav class="nav-links">
+                <a href="#">Projects</a>
+                <a href="#discover">Discover</a>
+                <a href="#about">About Us</a>
+                <a href="create.html">Create project</a>
+                
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search projects" id="searchInput">
+               <i class="fa fa-search searchicon" aria-hidden="true"></i>
+                 <a href="profile.html"><i class="fas fa-user usericon"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Projects Section -->
+    <section class="featured-projects">
+        <img src="homepic.png" alt="Featured" class="featured-image">
+        <h1>Featured Projects</h1>
+    </section>
+
+    <!-- Filter and Projects Section -->
+    <section id="projects" class="projects-section">
+        <aside class="filter-sidebar">
+            <h3>Filter by</h3>
+            <div class="filter-buttons">
+                <button>Arts</button>
+                <button>STEM</button>
+                <button>Sports</button>
+                <button>Literacy</button>
+            </div>
+            <div class="filter-options">
+                <h4>Category</h4>
+                <h4>Location</h4>
+                <h4>Donation</h4>
+                <h4>Urgency</h4>
+                <label><input type="checkbox" id="highUrgency" value="high"> High</label>
+                <label><input type="checkbox" id="lowurgency" value="low"> Low</label>
+                <h4>Teacher Name</h4>
+            </div>
+        </aside>
+
+        <!-- Projects Grid -->
+        <div id="discover" class="projects-grid">
+            <div class="project-card">
+                <img src="class1.png" alt="Project 1">
+                <h4><a href="project.html"> Project Title 1</a></h4>
+                <p>$50</p>
+            </div>
+            <div class="project-card">
+                <img src="class2.png" alt="Project 2">
+                <h4>Project Title 2</h4>
+                <p>$100</p>
+            </div>
+             <div class="project-card">
+                <img src="class3.png" alt="Project 2">
+                <h4>Project Title 2</h4>
+                <p>$100</p>
+            </div>
+             <div class="project-card">
+                <img src="class4.png" alt="Project 2">
+                <h4>Project Title 2</h4>
+                <p>$100</p>
+            </div>
+            <div class="project-card">
+                <img src="class1.png" alt="Project 2">
+                <h4>Project Title 2</h4>
+                <p>$100</p>
+            </div>
+            <!-- Add more project cards here -->
+        </div>
+    </section>
+
+    <!-- Discover Section -->
+    <section id="about" class="discover-section">
+        <div class="discover-content">
+            <h2>Discover</h2>
+            <p>ClassEquip is conceived as a concerted effort to transform education in Africa, one classroom at a time. We're piloting a model that aids teachers and other stake holders in Education to drive change through advocacy and attracting resources to fix critical challenges within their circle of influence, as a way to eliminate the barriers that stand in the way of delivering engaging classroom experiences that guarantee the best learning outcomes for students.</p>
+        </div>
+        <div class="discover-slider">
+            <div class="slider-card">
+                <img src="discover.png" alt="Discover 1">
+                <h4>Project Name</h4>
+                <button>Donate</button>
+            </div>
+            <!-- Add more slider cards -->
+        </div>
+    </section>
+
+
+
+    <!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-left">
+            <h3>Stay Updated</h3>
+            <form>
+                <input type="email" placeholder="Enter your email address">
+                <button type="submit">Subscribe</button>
+            </form>
+            <p>ClassEquip</p>
+        </div>
+        <div class="footer-right">
+            <div class="footer-links">
+                <h4>Support</h4>
+                <a href="#">FAQs</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="footer-links">
+                <h4>Other</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Site Map</a>
+            </div>
+        </div>
+    </footer>
+ <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Left side */
+.left {
+    width: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.image-container img {
+    width: 250px;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.text h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Right side */
+.right {
+    width: 50%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #333;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Brand section */
+.brand {
+    text-align: center;
+    margin-top: auto;
+}
+
+.brand h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brand p {
+    font-size: 14px;
+    color: #666;
+}
