@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Details</title>
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-icons">
+            <i class="fas fa-bars" id="menu-btn"></i> <!-- This will toggle the sidebar -->
+            <a href="home.html"><i class="fas fa-home"></i> </a>
+            <a href="project.html"><i class="fas fa-search"></i></a>
+            <!-- <i class="fas fa-donate"></i> -->
+            <a href="profile.html"><i class="fas fa-user"></i></a>
+           
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="project-details">
+            <img src="class1.png" alt="Project Image" class="project-image">
+
+            <div class="project-info">
+                <h1>Project Class 1</h1>
+                <div class="project-meta">
+                   <!--  <div class="meta-item">
+                        <i class="fas fa-clock"></i> 1 hour 13 minutes
+                    </div> -->
+                    <div class="meta-item">
+                        <i class="fas fa-heart"></i> 5.0 out of 5.0
+                    </div>
+                </div>
+                <p>Buying books for students.</p>
+                <!-- <button type="submit" class="support-btn">Donate now</button> -->
+                    <a href="donate.html">
+                     <button type="button" class="support-btn">Donate now</button>
+                    </a>
+
+
+            </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="project-overview">
+            <h2>Project Overview</h2>
+            <ul>
+                <li>
+                    <button class="overview-btn">Items Needed <span>10 items</span></button>
+                </li>
+                <li>
+                    <button class="overview-btn">Cost <span></span></button>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="project.js"></script>
+</body>
+</html>
